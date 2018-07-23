@@ -7,8 +7,6 @@
 
 int main(int argc, char *argv[])
 {
-	printf("Hello world!\n");
-
 #if APPHELLOWORLD_PRINTARGS
 	int i;
 
@@ -22,4 +20,5 @@ int main(int argc, char *argv[])
 	struct nnp_size input_size;
 	enum nnp_status status = nnp_status_success;
 	void* input = malloc(input_channels * input_size.width * input_size.height * sizeof(float));
+	printf("Hello world!\n");
 }
