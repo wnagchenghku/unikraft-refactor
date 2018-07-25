@@ -67,4 +67,5 @@ int main(int argc, char *argv[])
 		fprintf(stderr, "NNPACK nnp_convolution_inference failed: error code %d\n", status);
 		exit(EXIT_FAILURE);
 	}
+	printf("Hello World\n");
 }
